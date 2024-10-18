@@ -1,0 +1,44 @@
+*
+{
+    box-sizing: border-box;
+
+}
+ body {
+    background-color: rgb(182, 133, 41);
+ }
+.fondogame {
+  background-image: url(imagenes/Firefly_juguete_de_calabaza_65128-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+.calabazinmover {
+    position: relative;
+    top: 10px;
+    left: 500px;
+    animation: halloweon 5s infinite;
+    top: 35vh;
+    left: 20%;
+    
+}
+
+@keyframes halloweon {
+    8%   {bottom: 23vh; left:18%; transform: rotate(180deg);}
+    28%  {top: 43vh; left:34%;}
+
+    75%  {top: 12vh; left:70%}
+    100% {top:  90vh left 50%; transform: rotate(360deg);}
+  }
+
+
+
+
+.texto {
+    text-align: center;  
+    height: 150%;
+    width: 150%;
+}
